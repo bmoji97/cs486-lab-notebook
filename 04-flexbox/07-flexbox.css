@@ -1,20 +1,76 @@
 .flex-container {
+  display: flex;
+  flex-wrap: wrap;
   background-color: rgb(190, 190, 231);
 }
 
 /* Flex Container 1 */
+.flex-container-1 {
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  height: 400px;
+}
 
 /* Flex Container 2 */
+.flex-container-2 {
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 400px;
+}
 
 /* Flex Container 3 */
+.flex-container-3 {
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 400px;
+}
 
 /* use height: 400px; on the container */
 
 /* Flex Container 4 */
+.flex-container-4 {
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  height: 300px;
+}
 
 /* Flex Container 5 */
+.flex-container-5 {
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+  height: 300px;
+}
+
+.flex-container-5 .item1,
+.flex-container-5 .item3,
+.flex-container-5 .item6 {
+  height: 150px;
+}
+
+.flex-container-5 .item2,
+.flex-container-5 .item8 {
+  height: 250px;
+}
+
+.flex-container-5 .item4,
+.flex-container-5 .item5,
+.flex-container-5 .item7 {
+  height: 100px;
+}
 
 /* Flex Container 6 */
+.flex-container-6 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 300px;
+}
 
 .flex-container-6 .flex-item {
   width: 400px;

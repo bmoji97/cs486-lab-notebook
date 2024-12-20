@@ -8,8 +8,51 @@
   </head>
   <body>
     <main>
+      <h1> Ex04-Forms</h1>
       <form action="/submit">
-        <!-- Add your code here -->
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name">
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email">
+        </div>
+        <fieldset>
+          <legend>Favorite Character</legend>
+          <div>
+            <label>
+              <input type="radio" value="spongebob" name="character"> Spongebob
+            </label>
+          </div>
+          <div>
+            <label>
+              <input type="radio" value="sandy" name="character"> Sandy
+            </label>
+          </div>
+          <div>
+            <label>
+              <input type="radio" value="patric" name="character"> Patrick
+            </label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Are you a fan of the show?</legend>
+          <div>
+            <label>
+              <input type="checkbox" value="watched" name="fan"> Yes, I've watched all the episodes!
+            </label>
+          </div>
+          <div>
+            <label>
+              <input type="checkbox" value="memes" name="fan"> Yes, it's got all the best memes!
+            </label>
+          </div>
+        </fieldset>
+        <div>
+          <input type="submit" value="Submit">
+          <input type="reset" value="Reset">
+        </div>
       </form>
     </main>
   </body>
